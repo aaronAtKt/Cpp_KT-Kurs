@@ -33,7 +33,7 @@ int main()
     Basis* b = new Ableitung();
     Ableitung* a = dynamic_cast<Ableitung*>(b);
 
-    cout << i << endl;
+    cout << 9 << endl;
 
     return 0;
 }
