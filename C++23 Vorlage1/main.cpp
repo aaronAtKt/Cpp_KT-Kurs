@@ -12,7 +12,7 @@ int main()
     //cout << "Du hast folgenden Wert eingegeben: " << iVar << endl;
 
     // Implizit / automatisch
-    int i = 10;
+    int i = 100;
     double d = i;
 
     // C-Style Cast
