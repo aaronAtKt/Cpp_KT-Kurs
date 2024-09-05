@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
+
+    // C++23 Vorlage1
     // Variable (Wertespeicher)
     unsigned int iVar;   // Integer (Nur positive Ganze Zahlen: 0, 1, 2, ...)
     //cout << "Bitte gebe eine Zahl ein: ";
