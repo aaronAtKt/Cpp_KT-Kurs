@@ -1,0 +1,21 @@
+Erklärung der einzelnen Abschnitte:
+Bitweise Verknüpfung - & (Bitweises UND):
+
+WAS: Verwendet den &-Operator, um die Bits von zwei Zahlen zu vergleichen und nur die gesetzten Bits in beiden Zahlen zu behalten.
+WIE: a & b vergleicht die Bits der Zahlen a und b.
+WARUM: Dieser Operator ist nützlich, um gemeinsame Bits zu extrahieren, z.B. bei Maskierungsoperationen.
+Verkettung von Strings:
+
+WAS: Verwendet den +-Operator, um zwei Strings zu einem vollständigen Satz zu verbinden.
+WIE: Der +-Operator verbindet die Strings teil1 und teil2.
+WARUM: String-Verkettung wird häufig verwendet, um dynamisch Text zu generieren oder mehrere Teile eines Textes zusammenzuführen.
+Bitweise Umverknüpfung - Kombination von Flags:
+
+WAS: Verwendet den |-Operator, um die Bits von mehreren Flags zu kombinieren.
+WIE: FLAG_1 | FLAG_2 kombiniert die Bits von zwei Flags.
+WARUM: Dies ist nützlich, um verschiedene Zustände in einer einzigen Zahl darzustellen, beispielsweise für Konfigurationsflags.
+Bit-Shift-Operatoren - << und >>:
+
+WAS: Linksverschiebung (<<) und Rechtsverschiebung (>>) verschieben die Bits einer Zahl.
+WIE: a << 1 verschiebt die Bits um eine Position nach links (multipliziert mit 2), a >> 1 verschiebt die Bits um eine Position nach rechts (dividiert durch 2).
+WARUM: Diese Operatoren werden verwendet, um effizient zu multiplizieren oder zu dividieren, insbesondere in der Systemprogrammierung.
