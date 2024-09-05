@@ -19,7 +19,7 @@ int main()
     double d = i;
 
     // C-Style Cast
-    d = 3.99;
+    d = 4.99;
     i = (int) d;
 
     // Functional Casting (C)
