@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
+
+    // Beispiel push auf amrins_kt_branch
+    // 
     // Variable (Wertespeicher)
     unsigned int iVar;   // Integer (Nur positive Ganze Zahlen: 0, 1, 2, ...)
     //cout << "Bitte gebe eine Zahl ein: ";
