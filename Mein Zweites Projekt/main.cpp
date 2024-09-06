@@ -26,6 +26,7 @@ int main()
     --zahl; // Präfix Dekrement (zahl = 5) --> erst runtergezählt, danach wird 5 übergeben
     */
     int n = 4;
+    string myChange = "change";
 
     /*for (int teiler = 1; teiler <= n; ++teiler) {
         if (n % teiler == 0) {
