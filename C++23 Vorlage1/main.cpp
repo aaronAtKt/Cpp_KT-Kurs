@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
+
+    // Beispiel push auf amrins_kt_branch
+    // 
     // Variable (Wertespeicher)
     unsigned int iVar;   // Integer (Nur positive Ganze Zahlen: 0, 1, 2, ...)
     //cout << "Bitte gebe eine Zahl ein: ";
@@ -16,7 +19,7 @@ int main()
     double d = i;
 
     // C-Style Cast
-    d = 3.99;
+    d = 4.99;
     i = (int) d;
 
     // Functional Casting (C)
