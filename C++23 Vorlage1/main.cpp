@@ -33,7 +33,7 @@ int main()
     Basis* b = new Ableitung();
     Ableitung* a = dynamic_cast<Ableitung*>(b);
 
-    // Variable i durch '8' ersetzt
+    // Variable i durch '8' ersetzt 
     cout << 8 << endl;
 
     return 0;
