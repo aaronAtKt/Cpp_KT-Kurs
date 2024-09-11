@@ -1,31 +1,41 @@
-Aufgabe 0: Aussagen einordnen (Wahr oder Falsch)
-a) Ein Zeiger speichert die Adresse einer Variablen.
+## Aufgabe 0: Aussagen einordnen (Wahr oder Falsch)
 
-Wahr. Ein Zeiger ist eine Variable, die die Adresse einer anderen Variablen speichert, d. h., er zeigt auf die Speicheradresse, wo der Wert der Variablen gespeichert ist.
-b) Ein const-Zeiger kann seinen Wert ändern, aber nicht die Adresse, auf die er zeigt.
+### a) Ein Zeiger speichert die Adresse einer Variablen.
+**Wahr.**  
+Ein Zeiger ist eine Variable, die die Adresse einer anderen Variablen speichert, d. h., er zeigt auf die Speicheradresse, wo der Wert der Variablen gespeichert ist.
 
-Falsch. Ein const-Zeiger (also int* const ptr) kann die Adresse, auf die er zeigt, nicht ändern, aber er kann die Werte an der Adresse ändern.
-c) Ein constexpr muss während der Kompilierung bekannt sein.
+### b) Ein const-Zeiger kann seinen Wert Ã¤ndern, aber nicht die Adresse, auf die er zeigt.
+**Falsch.**  
+Ein `const`-Zeiger (also `int* const ptr`) kann die Adresse, auf die er zeigt, nicht Ã¤ndern, aber er kann die Werte an der Adresse Ã¤ndern.
 
-Wahr. constexpr bedeutet, dass der Wert zur Kompilierzeit bekannt sein muss, um eine Optimierung durch den Compiler zu ermöglichen.
-d) Ein Array kann nach der Initialisierung seine Größe dynamisch ändern.
+### c) Ein constexpr muss wÃ¤hrend der Kompilierung bekannt sein.
+**Wahr.**  
+`constexpr` bedeutet, dass der Wert zur Kompilierzeit bekannt sein muss, um eine Optimierung durch den Compiler zu ermÃ¶glichen.
 
-Falsch. Ein statisches Array in C++ hat eine feste Größe und kann seine Größe nach der Initialisierung nicht ändern.
-e) Ein C-String ist ein Array von char, das mit dem Nullterminator (\0) endet.
+### d) Ein Array kann nach der Initialisierung seine GrÃ¶ÃŸe dynamisch Ã¤ndern.
+**Falsch.**  
+Ein statisches Array in C++ hat eine feste GrÃ¶ÃŸe und kann seine GrÃ¶ÃŸe nach der Initialisierung nicht Ã¤ndern.
 
-Wahr. C-Strings sind char-Arrays, die mit einem Nullterminator (\0) enden, um das Ende des Strings zu markieren.
-f) const schützt eine Variable nur vor der Modifikation durch den Programmierer, nicht jedoch vor einer Modifikation durch Zeiger.
+### e) Ein C-String ist ein Array von char, das mit dem Nullterminator (\0) endet.
+**Wahr.**  
+C-Strings sind `char`-Arrays, die mit einem Nullterminator (`\0`) enden, um das Ende des Strings zu markieren.
 
-Falsch. const schützt auch vor Modifikationen durch Zeiger, wenn der Zeiger auf eine const-Variable zeigt.
-g) Ein Zeiger auf const erlaubt keine Änderung der Daten, auf die er zeigt.
+### f) const schÃ¼tzt eine Variable nur vor der Modifikation durch den Programmierer, nicht jedoch vor einer Modifikation durch Zeiger.
+**Falsch.**  
+`const` schÃ¼tzt auch vor Modifikationen durch Zeiger, wenn der Zeiger auf eine `const`-Variable zeigt.
 
-Wahr. Ein Zeiger auf const (z. B. const int* ptr) erlaubt keine Modifikation der Daten, auf die er zeigt.
-h) constexpr-Variablen können während der Laufzeit geändert werden.
+### g) Ein Zeiger auf const erlaubt keine Ã„nderung der Daten, auf die er zeigt.
+**Wahr.**  
+Ein Zeiger auf `const` (z. B. `const int* ptr`) erlaubt keine Modifikation der Daten, auf die er zeigt.
 
-Falsch. constexpr-Variablen sind zur Kompilierzeit festgelegt und können zur Laufzeit nicht mehr geändert werden.
-i) Zeigerarithmetik kann verwendet werden, um durch die Elemente eines Arrays zu iterieren.
+### h) constexpr-Variablen kÃ¶nnen wÃ¤hrend der Laufzeit geÃ¤ndert werden.
+**Falsch.**  
+`constexpr`-Variablen sind zur Kompilierzeit festgelegt und kÃ¶nnen zur Laufzeit nicht mehr geÃ¤ndert werden.
 
-Wahr. Zeigerarithmetik ermöglicht es, durch die Elemente eines Arrays zu iterieren, da Arrays zusammenhängend im Speicher abgelegt sind.
-j) C-Strings werden immer dynamisch allokiert.
+### i) Zeigerarithmetik kann verwendet werden, um durch die Elemente eines Arrays zu iterieren.
+**Wahr.**  
+Zeigerarithmetik ermÃ¶glicht es, durch die Elemente eines Arrays zu iterieren, da Arrays zusammenhÃ¤ngend im Speicher abgelegt sind.
 
-Falsch. C-Strings können sowohl statisch (im Stack-Speicher) als auch dynamisch (im Heap-Speicher) allokiert werden.
+### j) C-Strings werden immer dynamisch allokiert.
+**Falsch.**  
+C-Strings kÃ¶nnen sowohl statisch (im Stack-Speicher) als auch dynamisch (im Heap-Speicher) allokiert werden.
