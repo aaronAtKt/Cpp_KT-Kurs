@@ -93,7 +93,15 @@ Verwenden Sie `std::setw(2)` für eine saubere Ausgabe der Zahlen und eine Trenn
 std::string(cols * 3, '-');
 ```
 
+---
 
+## Weiterführende Erklärungen und Materialien
+
+Für weiterführende Erklärungen und Beispiele können Sie die Materialien unter folgendem Link einsehen:
+
+[Weiterführende Erklärungen zu Zeigern und Arrays](https://github.com/aaronAtKt/Cpp_KT-Kurs/tree/master/KT040924Kruemmel/10092024_Pointer)
+
+---
 
 
 
