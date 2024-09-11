@@ -1,4 +1,12 @@
 #include <iostream>  // Importiert die Bibliothek für Ein- und Ausgabe (z.B. std::cout und std::endl)
+#include <bitset>    // Importiert die Bibliothek für die Ausgabe von Binärzahlen (std::bitset)
+
+// Funktion zur Ausgabe der Binärdarstellung einer Zahl
+// number: Die Ganzzahl, deren Binärdarstellung ausgegeben werden soll.
+void printBinary(int number) {
+    // std::bitset<32> wird verwendet, um die Zahl als 32-Bit-Binärwert auszugeben
+    std::cout << std::bitset<32>(number) << std::endl;
+}
 
 // Funktion, die benachbarte Bit-Paare in einer Zahl tauscht.
 // number: Die Ganzzahl, deren benachbarte Bits (Paare) getauscht werden sollen.
@@ -29,11 +37,22 @@ int swapBitPairs(int number) {
 int main() {
     int number = 42;  // Beispielzahl: 42 in binär ist 101010.
     
+    // Gib die originale Zahl aus.
+    std::cout << "Originale Zahl: " << number << std::endl;
+    
+    // Gib die Binärdarstellung der originalen Zahl aus.
+    std::cout << "Binärdarstellung der originalen Zahl: ";
+    printBinary(number);  // Aufruf der Funktion zur Binärausgabe
+    
     // Rufe die Funktion auf, um die benachbarten Bit-Paare zu tauschen.
     int result = swapBitPairs(number);
     
-    // Gib das Ergebnis aus. Das Ergebnis zeigt die Zahl nach dem Tausch der Bit-Paare.
+    // Gib das Ergebnis nach dem Bit-Paar-Tausch aus.
     std::cout << "Zahl nach Bit-Paar-Tausch: " << result << std::endl;
+    
+    // Gib die Binärdarstellung der Zahl nach dem Tausch der Bit-Paare aus.
+    std::cout << "Binärdarstellung nach dem Bit-Paar-Tausch: ";
+    printBinary(result);  // Aufruf der Funktion zur Binärausgabe
 
     return 0;
 }
