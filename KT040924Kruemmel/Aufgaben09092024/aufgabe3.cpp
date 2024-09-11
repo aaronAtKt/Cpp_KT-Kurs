@@ -1,58 +1,72 @@
-#include <iostream>  // Importiert die Bibliothek für Ein- und Ausgabe (z.B. std::cout und std::endl)
-#include <bitset>    // Importiert die Bibliothek für die Ausgabe von Binärzahlen (std::bitset)
+#include <iostream>  // Für std::cout und std::endl
+#include <bitset>    // Für std::bitset, um Binärdarstellung zu erzeugen
 
 // Funktion zur Ausgabe der Binärdarstellung einer Zahl
-// number: Die Ganzzahl, deren Binärdarstellung ausgegeben werden soll.
-void printBinary(int number) {
-    // std::bitset<32> wird verwendet, um die Zahl als 32-Bit-Binärwert auszugeben
-    std::cout << std::bitset<32>(number) << std::endl;
+void printBinary(int number, const std::string& label) {
+    // Ausgabe des Labels (z.B. "OddBits:") und der Binärdarstellung der Zahl
+    std::cout << label << ": " << "0b" << std::bitset<32>(number) << std::endl;
 }
 
-// Funktion, die benachbarte Bit-Paare in einer Zahl tauscht.
-// number: Die Ganzzahl, deren benachbarte Bits (Paare) getauscht werden sollen.
+// Funktion, die benachbarte Bit-Paare in einer Zahl tauscht
 int swapBitPairs(int number) {
-    // Maske für ungerade Bits (010101... in binär)
-    // 0xAAAAAAAA ist die hexadezimale Darstellung einer Zahl, bei der alle ungeraden Bits 1 sind (z.B. in binär: 10101010101010101010101010101010).
-    // Durch "number & 0xAAAAAAAA" werden alle ungeraden Bits der Zahl "number" extrahiert.
-    int oddBits = number & 0xAAAAAAAA;
+    // Maske für ungerade Bits (101010... in binär)
+    // Erklärung der Hexadezimalwerte:
+    // 0xAAAAAAAA ist die Hexadezimaldarstellung einer Zahl, bei der alle ungeraden Bits (1., 3., 5., etc.) auf 1 gesetzt sind.
+    // In Binär sieht 0xAAAAAAAA so aus: 10101010101010101010101010101010
+    // Jede Hexadezimalziffer entspricht 4 Bits. Beispiel:
+    // A (Hex) = 1010 (Binär) 
+    // Daher ist 0xAAAAAAAA in Binär: 1010 1010 1010 1010 1010 1010 1010 1010
+    int oddBits = number & 0xAAAAAAAA;  // Extrahiert ungerade Bits
 
-    // Maske für gerade Bits (101010... in binär)
-    // 0x55555555 ist die hexadezimale Darstellung einer Zahl, bei der alle geraden Bits 1 sind (z.B. in binär: 01010101010101010101010101010101).
-    // Durch "number & 0x55555555" werden alle geraden Bits der Zahl "number" extrahiert.
-    int evenBits = number & 0x55555555;
+    // Maske für gerade Bits (010101... in binär)
+    // 0x55555555 ist die Hexadezimaldarstellung einer Zahl, bei der alle geraden Bits (2., 4., 6., etc.) auf 1 gesetzt sind.
+    // In Binär sieht 0x55555555 so aus: 01010101010101010101010101010101
+    // Jede Hexadezimalziffer entspricht 4 Bits. Beispiel:
+    // 5 (Hex) = 0101 (Binär)
+    // Daher ist 0x55555555 in Binär: 0101 0101 0101 0101 0101 0101 0101 0101
+    int evenBits = number & 0x55555555;  // Extrahiert gerade Bits
     
-    // Verschiebe die ungeraden Bits nach rechts um 1 Position.
-    // Da wir die ungeraden Bits nach rechts verschieben, tauschen wir sie mit den nächstgelegenen geraden Bits.
+    // Ausgabe der ungeraden und geraden Bits vor dem Tausch
+    printBinary(oddBits, "OddBits");
+    printBinary(evenBits, "EvenBits");
+    
+    // Verschiebe die ungeraden Bits nach rechts um 1 Position
     oddBits >>= 1;
-
-    // Verschiebe die geraden Bits nach links um 1 Position.
-    // Durch das Verschieben der geraden Bits nach links rücken sie an die Position der ungeraden Bits.
-    evenBits <<= 1;
     
-    // Kombiniere die verschobenen ungeraden und geraden Bits wieder.
-    // Durch eine bitweise ODER-Operation (|) werden die Bits zu einer Zahl zusammengeführt.
-    return (oddBits | evenBits);
+    // Verschiebe die geraden Bits nach links um 1 Position
+    evenBits <<= 1;
+
+    // Ausgabe der ungeraden und geraden Bits nach dem Tausch
+    printBinary(oddBits, "OddBits nach dem Tausch");
+    printBinary(evenBits, "EvenBits nach dem Tausch");
+    
+    // Kombiniere die verschobenen ungeraden und geraden Bits wieder
+    int result = oddBits | evenBits;
+    return result;
 }
 
 int main() {
-    int number = 42;  // Beispielzahl: 42 in binär ist 101010.
+    // Beispielzahl im Hexadezimalformat: 0xAED598FF
+    // Wie kommen wir zu 0xAED598FF? Hier ist die Binärdarstellung von 0xAED598FF:
+    // A (Hex) = 1010 (Binär)
+    // E (Hex) = 1110 (Binär)
+    // D (Hex) = 1101 (Binär)
+    // 5 (Hex) = 0101 (Binär)
+    // 9 (Hex) = 1001 (Binär)
+    // 8 (Hex) = 1000 (Binär)
+    // F (Hex) = 1111 (Binär)
+    // F (Hex) = 1111 (Binär)
+    // Daher ist 0xAED598FF in Binär: 10101110110101011001100011111111
+    int number = 0xAED598FF;
     
-    // Gib die originale Zahl aus.
-    std::cout << "Originale Zahl: " << number << std::endl;
+    // Ausgabe der Originalzahl und ihrer Binärdarstellung
+    std::cout << "Originale Zahl: 0b" << std::bitset<32>(number) << std::endl;
     
-    // Gib die Binärdarstellung der originalen Zahl aus.
-    std::cout << "Binärdarstellung der originalen Zahl: ";
-    printBinary(number);  // Aufruf der Funktion zur Binärausgabe
-    
-    // Rufe die Funktion auf, um die benachbarten Bit-Paare zu tauschen.
+    // Rufe die Funktion auf, um die benachbarten Bit-Paare zu tauschen
     int result = swapBitPairs(number);
     
-    // Gib das Ergebnis nach dem Bit-Paar-Tausch aus.
-    std::cout << "Zahl nach Bit-Paar-Tausch: " << result << std::endl;
-    
-    // Gib die Binärdarstellung der Zahl nach dem Tausch der Bit-Paare aus.
-    std::cout << "Binärdarstellung nach dem Bit-Paar-Tausch: ";
-    printBinary(result);  // Aufruf der Funktion zur Binärausgabe
+    // Ausgabe der getauschten Bits
+    printBinary(result, "Getauschte Bits");
 
     return 0;
 }
