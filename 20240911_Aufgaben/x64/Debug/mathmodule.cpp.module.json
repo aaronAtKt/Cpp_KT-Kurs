@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\mathmodule.obj",
+            "outputs": [
+                "C:\\Users\\AaronSchwierk\\OneDrive - karriere tutor GmbH\\Desktop\\C++\\20240911_Aufgaben\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "x64\\Debug\\mathmodule.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "mathmodule",
+                    "source-path": "c:\\users\\aaronschwierk\\onedrive - karriere tutor gmbh\\desktop\\c++\\20240911_aufgaben\\mathmodule.cpp",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
