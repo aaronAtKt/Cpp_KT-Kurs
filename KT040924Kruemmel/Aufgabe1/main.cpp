@@ -2,7 +2,7 @@
 #include <string>    // Bibliothek für die Verwendung von std::string
 
 int main() {
-    // 1. Deklaration einer Ganzzahl-Variable und Initialisierung
+    /** // 1. Deklaration einer Ganzzahl-Variable und Initialisierung
     int age = 25;  // Was: Deklaration und Initialisierung der Ganzzahl-Variable "age" mit dem Wert 25.
     // Warum: Speichert das Alter einer Person.
 
@@ -35,4 +35,10 @@ int main() {
     std::cout << "Ist Student: " << (isStudent ? "Ja" : "Nein") << std::endl;  // Was: Ausgabe, ob die Person ein Student ist.
 
     return 0;  // Programm erfolgreich beendet
+}*/
+// Aufgabe 3.1
+cout << "Zufallszahlen:\n";
+for (int i = 0; i < 5; ++i) {
+    cout << std::rand() << "\n";
+
 }
