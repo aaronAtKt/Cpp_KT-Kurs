@@ -5,25 +5,25 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++23 Vorlage1", "C++23 Vorlage1.vcxproj", "{3D009F78-F272-4930-86D5-799613F69274}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mein Zweites Projekt", "..\Mein Zweites Projekt\Mein Zweites Projekt.vcxproj", "{AED487A1-5410-4831-A691-9292A1EA2B5C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mein Zweites Projekt", "Mein Zweites Projekt\Mein Zweites Projekt.vcxproj", "{AED487A1-5410-4831-A691-9292A1EA2B5C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringBeispiele", "..\StringBeispiele\StringBeispiele.vcxproj", "{08C60B02-06C0-4C34-99AC-24BE2E0B8F8C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringBeispiele", "StringBeispiele\StringBeispiele.vcxproj", "{08C60B02-06C0-4C34-99AC-24BE2E0B8F8C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bit- uns Schiebeoperationen", "..\Bit- uns Schiebeoperationen\Bit- uns Schiebeoperationen.vcxproj", "{7BDDC515-63F0-444A-88C5-B9F5EE61C536}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bit- uns Schiebeoperationen", "Bit- uns Schiebeoperationen\Bit- uns Schiebeoperationen.vcxproj", "{7BDDC515-63F0-444A-88C5-B9F5EE61C536}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vergleichs- und Logikoperationen", "..\Vergleichs- und Logikoperationen\Vergleichs- und Logikoperationen.vcxproj", "{437A2D7D-C090-44AD-8B2B-C3D09DDC2BFC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vergleichs- und Logikoperationen", "Vergleichs- und Logikoperationen\Vergleichs- und Logikoperationen.vcxproj", "{437A2D7D-C090-44AD-8B2B-C3D09DDC2BFC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Funktionen", "..\Funktionen\Funktionen.vcxproj", "{EC0937D1-DE37-4956-814A-C37732F501CD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Funktionen", "Funktionen\Funktionen.vcxproj", "{EC0937D1-DE37-4956-814A-C37732F501CD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240909_Aufgaben", "..\20240909_Aufgaben\20240909_Aufgaben.vcxproj", "{937FCA81-FAC3-4A5E-93F9-62F74B209483}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240909_Aufgaben", "20240909_Aufgaben\20240909_Aufgaben.vcxproj", "{937FCA81-FAC3-4A5E-93F9-62F74B209483}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240910_Tutorium", "..\20240910_Tutorium\20240910_Tutorium.vcxproj", "{3E17E3D1-9311-4886-9100-228626CAC52A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240910_Tutorium", "20240910_Tutorium\20240910_Tutorium.vcxproj", "{3E17E3D1-9311-4886-9100-228626CAC52A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240911_Aufgaben", "..\20240911_Aufgaben\20240911_Aufgaben.vcxproj", "{63F33587-7AB4-4384-B22F-ECD66FE0EF4C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240911_Aufgaben", "20240911_Aufgaben\20240911_Aufgaben.vcxproj", "{63F33587-7AB4-4384-B22F-ECD66FE0EF4C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240912_Tutorium", "..\20240912_Tutorium\20240912_Tutorium.vcxproj", "{4473C42F-F9EF-42B8-9D66-9B777996F2A1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240912_Tutorium", "20240912_Tutorium\20240912_Tutorium.vcxproj", "{4473C42F-F9EF-42B8-9D66-9B777996F2A1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bibliothek_12092024", "..\Bibliothek_12092024\Bibliothek_12092024.vcxproj", "{A81E38B1-B00A-41A9-820D-EAFE476FD516}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bibliothek_12092024", "Bibliothek_12092024\Bibliothek_12092024.vcxproj", "{A81E38B1-B00A-41A9-820D-EAFE476FD516}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
