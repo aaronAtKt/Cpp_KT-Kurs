@@ -1,5 +1,0 @@
-﻿  main.cpp
-C:\Users\ralfk\Documents\c++ Lerninhalte\20240910_Tutorium_erweitert\20240910_Tutorium_erweitert\main.cpp(9,24): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "const int", Datenverlust möglich
-  20240910_Tutorium_erweitert.vcxproj -> C:\Users\ralfk\Documents\c++ Lerninhalte\20240910_Tutorium_erweitert\20240910_Tutorium_erweitert\x64\Debug\20240910_Tutorium_erweitert.exe
-  Der Befehl "pwsh.exe" ist entweder falsch geschrieben oder
-  konnte nicht gefunden werden.
