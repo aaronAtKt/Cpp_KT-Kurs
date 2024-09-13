@@ -1,4 +1,5 @@
-import <iostream>;
+#include <iostream>
+#include <numbers>  // für std::numbers::pi
 
 using namespace std;
 
@@ -19,23 +20,23 @@ int main()
     return 0;
 }*/
 
-#include <iostream>
-
-using namespace std;
-
 // constexpr int square(const int number);
 
-constexpr int square(const int number) {
+constexpr int square(const int number) {    // diese Funktion ist inline
     return number * number;
 }
 
-constexpr int value = 4;
+inline int add(int a, int b) {
+    return a + b;
+}
+ 
+constexpr int value = 4;    // bekannt global scope
 
-int main()
+void main_()
 {
-    const int x = 20;   // Wert x kann nicht mehr geändert werden.
+    int x = 7, y = 6;   // Wert x kann nicht mehr geändert werden. Bekannt im local Scope
 
-    cout << "wert von const x: " << x << endl;
+    cout << "Summe: " << add(x, y) << "\nWert von Pi: " << numbers::pi << endl;
 
     // constexpr wird zur Compile-Zeit ausgewertet
     // const int result = square(x);
@@ -55,8 +56,6 @@ int main()
 
 
     cout << "Ergebnis der Compile-Zeit-Berechnung (constexpr): " << result << endl;
-
-    return 0;
 }
  
  

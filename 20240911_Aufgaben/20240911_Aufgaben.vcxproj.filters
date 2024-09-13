@@ -21,5 +21,8 @@
     <ClCompile Include="mathmodule.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="aufgabe3.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
