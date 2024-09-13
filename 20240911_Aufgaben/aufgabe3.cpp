@@ -2,6 +2,11 @@
 #include <cstring>
 using namespace std;
 
+/// <summary>
+/// Kehrt einen String um.
+/// </summary>
+/// <param name="arr"> String der umgekehrt werden soll. </param>
+/// <param name="groesse"> Größe des Strings </param>
 void reverseString(char* arr, int groesse) {
 	char c;
 	char d;
