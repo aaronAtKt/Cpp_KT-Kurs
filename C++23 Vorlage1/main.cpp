@@ -5,8 +5,6 @@ using namespace std;
 int main()
 {
 
-    // Beispiel push auf amrins_kt_branch
-    // 
     // Variable (Wertespeicher)
     unsigned int iVar;   // Integer (Nur positive Ganze Zahlen: 0, 1, 2, ...)
     //cout << "Bitte gebe eine Zahl ein: ";
@@ -36,7 +34,7 @@ int main()
     Basis* b = new Ableitung();
     Ableitung* a = dynamic_cast<Ableitung*>(b);
 
-    cout << i << endl;
+    cout << 9 << endl;
 
     return 0;
 }
