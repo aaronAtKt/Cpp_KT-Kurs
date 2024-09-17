@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240912_Tutorium", "202409
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bibliothek_12092024", "Bibliothek_12092024\Bibliothek_12092024.vcxproj", "{A81E38B1-B00A-41A9-820D-EAFE476FD516}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240917_Tutorium", "..\20240917_Tutorium\20240917_Tutorium.vcxproj", "{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{A81E38B1-B00A-41A9-820D-EAFE476FD516}.Release|x64.Build.0 = Release|x64
 		{A81E38B1-B00A-41A9-820D-EAFE476FD516}.Release|x86.ActiveCfg = Release|Win32
 		{A81E38B1-B00A-41A9-820D-EAFE476FD516}.Release|x86.Build.0 = Release|Win32
+		{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}.Debug|x64.ActiveCfg = Debug|x64
+		{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}.Debug|x64.Build.0 = Debug|x64
+		{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}.Debug|x86.ActiveCfg = Debug|Win32
+		{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}.Debug|x86.Build.0 = Debug|Win32
+		{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}.Release|x64.ActiveCfg = Release|x64
+		{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}.Release|x64.Build.0 = Release|x64
+		{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}.Release|x86.ActiveCfg = Release|Win32
+		{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
