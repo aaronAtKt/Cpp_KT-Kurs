@@ -25,7 +25,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240912_Tutorium", "202409
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bibliothek_12092024", "Bibliothek_12092024\Bibliothek_12092024.vcxproj", "{A81E38B1-B00A-41A9-820D-EAFE476FD516}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240917_Tutorium", "..\20240917_Tutorium\20240917_Tutorium.vcxproj", "{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240917_Tutorium", "20240917_Tutorium\20240917_Tutorium.vcxproj", "{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
