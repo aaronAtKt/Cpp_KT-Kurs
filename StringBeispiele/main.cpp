@@ -24,9 +24,9 @@ int main()
     bool istWahr = true;
     istWahr = false;
 
-    // sometext = "A"; // Das ist nicht möglich, weil es als const deklariert wurde
+    // sometext = "A"; // Das ist nicht mï¿½glich, weil es als const deklariert wurde
 
-    std::cout << "Länge von Texte: " << texte.length()
+    std::cout << "Lï¿½nge von Texte: " << texte.length()
         << "\n Size von texte: " << texte.size() << std::endl;
 
     return 0;
