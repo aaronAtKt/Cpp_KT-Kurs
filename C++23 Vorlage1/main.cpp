@@ -5,10 +5,6 @@ using namespace std;
 int main()
 {
 
-<<<<<<< HEAD
-
-=======
->>>>>>> master
     // Variable (Wertespeicher)
     unsigned int iVar;   // Integer (Nur positive Ganze Zahlen: 0, 1, 2, ...)
     //cout << "Bitte gebe eine Zahl ein: ";
