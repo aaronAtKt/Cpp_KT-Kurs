@@ -1,4 +1,5 @@
-﻿  main.cpp
+﻿  rekursion.cpp
+C:\Users\AaronSchwierk\OneDrive - karriere tutor GmbH\Desktop\C++\20240924_Tutorium\rekursion.cpp(44,37): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
   20240924_Tutorium.vcxproj -> C:\Users\AaronSchwierk\Source\Repos\aaronAtKt\Cpp_KT-Kurs\x64\Debug\20240924_Tutorium.exe
   Der Befehl "pwsh.exe" ist entweder falsch geschrieben oder
   konnte nicht gefunden werden.
