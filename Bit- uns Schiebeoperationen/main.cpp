@@ -4,7 +4,7 @@
 int main()
 {
     // dezimale Zahlen haben die Ziffern 0 ... 9 (Normales Zahlensystem)
-    // binäre Zahlen bestehen nur aus 0 und 1
+    // binï¿½re Zahlen bestehen nur aus 0 und 1
     // oktale Zahlen bestehen von 0 ... 7
     // hexadezimale Zahlen bestehen von 0 ... F
     // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
@@ -37,7 +37,7 @@ int main()
     // <<: Verschiebt die Bits in zahl1 um zahl2 Poisitonen nach links
     //     Multiplikation zur Basis 2 mit Exponent als zahl2:
     //      <zahl1> *= 2^<zahl2>
-    int zahl1 = 0b00100101; //binäres Literal
+    int zahl1 = 0b00100101; //binï¿½res Literal
     zahl1 = zahl1 << 3; //0b00101000
     // zahl1 <<= 3; // zahl1 *= 2^3;
 

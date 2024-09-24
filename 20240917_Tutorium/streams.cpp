@@ -31,7 +31,7 @@ void using_streams() {
 		+ "\n##### END #####" << endl;*/
 
 		// Verkopplung von Cin und cout
-		//cin.tie(&cout);	// Bindung wird gesetzt (Standardmäßig)
+		//cin.tie(&cout);	// Bindung wird gesetzt (Standardmï¿½ï¿½ig)
 	cin.tie(nullptr);	// Bindung wird aufgehoben
 	cout << "Name eingeben: ";
 	cin >> name;
@@ -58,16 +58,16 @@ void read_only_ints() {
 	while (true) {
 		cin >> num;
 
-		// Überprüfen, ob die Eingabe erfolgreich war
+		// ï¿½berprï¿½fen, ob die Eingabe erfolgreich war
 		if (((num > 13) && (num < 500)) || cin.fail()) {
-			// Falls die Eingabe kein gültiger Integer war:
-			cin.clear(); // Setzt den Fehlerstatus von cin zurück
+			// Falls die Eingabe kein gï¿½ltiger Integer war:
+			cin.clear(); // Setzt den Fehlerstatus von cin zurï¿½ck
 			// Entfernt die Eingabe aus dem Eingabepuffer
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
-			cerr << "Ungültige Eingabe. Bitte eine Ganzzahl eingeben: ";
+			cerr << "Ungï¿½ltige Eingabe. Bitte eine Ganzzahl eingeben: ";
 		}
 		else {
-			// Gültige Eingabe
+			// Gï¿½ltige Eingabe
 			cout << "Eingegebene Zahl: " << setw(5) << num << endl;
 			break;
 		}
