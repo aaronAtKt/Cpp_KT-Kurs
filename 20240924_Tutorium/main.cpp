@@ -1,21 +1,32 @@
+#define NDEBUG  // Deaktiviert alle Assertions in der Datei
+
 #include <iostream>
 #include <stdexcept>
+#include <cassert>  // Nur füden Debug / Entwicklungsmodus! Nicht für die finale Release Version
+#include <optional> // Erst Verfügbar ab C++-17 Version oder neuer
+#include <variant>  // Erst Verfügbar ab C++-17 Version oder neuer
+#include <string>
 using namespace std;
 
 int divide(int, int, int &);
 int divide_except(int, int);
+int divide_assert(int, int);
 void outer_function();
+optional<int> divide_opt(int, int);
+variant<int, string> divide_var(int, int);
 void rest();
 
-int main()
+int _main()
 {
-    try {
-        outer_function();
-    }
-    catch (const exception& e) {
-        cerr << "Fehler in der main-Funktion abgefangen: " << e.what() << endl;
-    }
+    auto result = divide_var(10, 0);
 
+    if (holds_alternative<string>(result)) {
+        cout << get<string>(result) << endl;
+    }
+    else {
+        cout << "Ergebnis: " << get<int>(result) << endl;
+    }
+    
     return 0;
 }
 
@@ -62,6 +73,30 @@ else {
     }
 
     //return errResult;
+    /*------------------------------------------------------------*/
+    try {
+        outer_function();
+    }
+    catch (const exception& e) {    // Einen allgemeinen Fehler / Ausnahme abzufangen
+        cerr << "Fehler in der main-Funktion abgefangen: " << e.what() << endl;
+    }
+    catch (...) {       // Einen Unbekannten Fehler / Ausnahme abzufangen
+        cerr << "Ein unbekannter Fehler ist aufgetreten!" << endl;
+    }
+    /*------------------------------------------------------------*/
+    int result = divide_assert(10, 2); // Kein Fehler
+    cout << "Ergebnis: " << result << endl;
+
+    result = divide_assert(10, 0); // Hier wird die Assertion fehlschlagen
+    cout << "Ergebnis 2: " << result << endl;
+    /*------------------------------------------------------------*/
+    /*auto result = divide_opt(10, 0);
+    if (result) {
+        cout << "Ergebnis: " << *result << endl;
+    }
+    else {
+        cerr << "Fehler: Division durch 0!" << endl;
+    }*/
 }
 
 int divide_except(int a, int b) {
@@ -87,4 +122,23 @@ void outer_function() {
     catch (const logic_error& le) {
         cerr << "Aeusserer Fehler abgefangen: " << le.what() << endl;
     }
+}
+
+int divide_assert(int a, int b) {
+    assert(b != 0 && "Division durch 0!"); // Überprüft, ob b ungleich 0 ist
+    return a / b;
+}
+
+optional<int> divide_opt(int a, int b) {
+    if (b == 0) {
+        return nullopt; // Kein Wert
+    }
+    return a / b;
+}
+
+variant<int, string> divide_var(int a, int b) {
+    if (b == 0) {
+        return "Fehler: Division durch 0!";
+    }
+    return a / b;
 }
