@@ -27,9 +27,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bibliothek_12092024", "Bibl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240917_Tutorium", "20240917_Tutorium\20240917_Tutorium.vcxproj", "{18B4BEF0-5810-493E-99E1-38EC0F4DB49A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240919_Tutorium", "..\..\..\..\OneDrive - karriere tutor GmbH\Desktop\C++\20240919\20240919.vcxproj", "{B662B846-5B79-4FE7-93D8-A768939F9D2B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240919_Tutorium", "20240919\20240919.vcxproj", "{B662B846-5B79-4FE7-93D8-A768939F9D2B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240924_Tutorium", "..\..\..\..\OneDrive - karriere tutor GmbH\Desktop\C++\20240924_Tutorium\20240924_Tutorium.vcxproj", "{0620CAE1-CF73-4DE1-84A0-8CA8E7C22335}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240924_Tutorium", "20240924_Tutorium\20240924_Tutorium.vcxproj", "{0620CAE1-CF73-4DE1-84A0-8CA8E7C22335}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
