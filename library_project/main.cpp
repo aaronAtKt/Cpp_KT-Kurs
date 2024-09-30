@@ -274,7 +274,7 @@ void	displayMenu() {
 int main() {
 	Library lib;
 
-	//	Vorerstellter Nutzer für Debuzwecke
+	//	Vorerstellter Nutzer für Debugzwecke
 	//	lib._users.push_back(Nutzer("Adrian Grun", "Semmelstrasse 13, 10999", "123-456789"));
 
 	while (1) {
