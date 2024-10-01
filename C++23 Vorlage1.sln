@@ -31,9 +31,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240919_Tutorium", "202409
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240924_Tutorium", "20240924_Tutorium\20240924_Tutorium.vcxproj", "{0620CAE1-CF73-4DE1-84A0-8CA8E7C22335}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240926_Tutorium", "..\..\..\..\OneDrive - karriere tutor GmbH\Desktop\C++\20240926_Tutorium\20240926_Tutorium.vcxproj", "{AF1656B6-94D7-4D84-BCBF-D407EE9DCC75}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240926_Tutorium", "20240926_Tutorium\20240926_Tutorium.vcxproj", "{AF1656B6-94D7-4D84-BCBF-D407EE9DCC75}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241001_Tutorium", "..\20241001_Tutorium\20241001_Tutorium.vcxproj", "{A9A97599-9FC3-4F3B-B33A-0C514F4ABBFC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241001_Tutorium", "20241001_Tutorium\20241001_Tutorium.vcxproj", "{A9A97599-9FC3-4F3B-B33A-0C514F4ABBFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
