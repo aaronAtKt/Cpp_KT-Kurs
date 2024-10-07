@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+**/Debug
+/20240909_Aufgaben/x64/Debug/20240909.937fca81.tlog/link.command.1.tlog
+/20240909_Aufgaben/x64/Debug/20240909.937fca81.tlog/Cl.items.tlog

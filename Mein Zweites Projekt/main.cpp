@@ -3,6 +3,8 @@ using namespace std;
 
 int main()
 {
+
+    // hgjg 
     /*int summand1, summand2;
 
     cout << "Gib die 1. Zahl ein: ";    // 5
@@ -20,10 +22,10 @@ int main()
     //zahl++;  zahl += 1    zahl = zahl + 1
     //zahl--;  zahl -= 1    zahl = zahl - 1
 
-    zahl++; // Postfix Inkrement (zahl = 6) --> 5 wird übergeben, danach hochgezählt
-    ++zahl; // Präfix Inkrement (zahl = 7) --> erst hochgezählt, danach wird 7 übergeben
-    zahl--; // Präfix Dekrement (zahl = 6) --> 7 wird übergeben, danach runtergezählt
-    --zahl; // Präfix Dekrement (zahl = 5) --> erst runtergezählt, danach wird 5 übergeben
+    zahl++; // Postfix Inkrement (zahl = 6) --> 5 wird ï¿½bergeben, danach hochgezï¿½hlt
+    ++zahl; // Prï¿½fix Inkrement (zahl = 7) --> erst hochgezï¿½hlt, danach wird 7 ï¿½bergeben
+    zahl--; // Prï¿½fix Dekrement (zahl = 6) --> 7 wird ï¿½bergeben, danach runtergezï¿½hlt
+    --zahl; // Prï¿½fix Dekrement (zahl = 5) --> erst runtergezï¿½hlt, danach wird 5 ï¿½bergeben
     */
     int n = 4;
 
