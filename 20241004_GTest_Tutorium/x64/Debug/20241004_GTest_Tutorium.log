@@ -1,0 +1,5 @@
+﻿  triangle.cpp
+C:\Users\AaronSchwierk\OneDrive - karriere tutor GmbH\Desktop\C++\20241004_GTest_Tutorium\triangle.cpp(23,1): warning C4715: "triangleType": Nicht alle Codepfade geben einen Wert zurück.
+  20241004_GTest_Tutorium.vcxproj -> C:\Users\AaronSchwierk\Source\Repos\aaronAtKt\Cpp_KT-Kurs\x64\Debug\20241004_GTest_Tutorium.exe
+  Der Befehl "pwsh.exe" ist entweder falsch geschrieben oder
+  konnte nicht gefunden werden.
