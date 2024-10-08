@@ -1,7 +1,9 @@
 #include "Person.hpp"
 
-Person::Person() {
-	_name = "";
+//int Person::lastid = 0; (Vorschlag von Felix)
+
+Person::Person() {	 //id ist immer 0. Paramter ergänzen Person::Person(std::string n, int id) : _name(n), _id(id) { ... }
+	_name = "";	 //Person(std::string name) : name(name) { id = lastId; lastId++; }; (Vorschlag von Felix)
 	_id = 0;
 };
 
