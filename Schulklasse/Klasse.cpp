@@ -29,7 +29,7 @@ void	Klasse::setKlassenlehrer(Lehrer lehrer) {
 
 void	Klasse::printKlasse() {
 	std::cout << "Diese Klasse nennt sich " << _klassenname << " und hat " << _klassenlehrer.getName() << " als Klassenlehrer.\n";
-	_klassenlehrer.unterrichteFach();
+	_klassenlehrer.unterrichtetFach();
 
 	std::cout << "\nFolgende Schüler sind in der Klasse:\n";
 	for (int i = 0; i < _schuelerliste.size(); i++) {
