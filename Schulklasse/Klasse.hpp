@@ -9,8 +9,8 @@
 class Klasse{
 	private:
 		std::string				_klassenname;
-		Lehrer					_klassenlehrer;
-		std::vector<Schueler>	_schuelerliste;
+		Lehrer					_klassenlehrer;		// auch möglich: Lehrer* _klassenlehrer
+		std::vector<Schueler>	_schuelerliste;				// und: std::vector<Schueler*> _schuelerliste
 
 	public:
 		Klasse() = delete;
