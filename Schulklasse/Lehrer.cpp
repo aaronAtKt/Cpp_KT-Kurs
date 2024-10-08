@@ -11,7 +11,8 @@ Lehrer::~Lehrer() {
 	_faecher.clear();
 }
 
-//	Sind bereits Fächer eingetragen oder nicht? Unbedingt berücksichtigen!
+//	Sind bereits Fächer eingetragen oder nicht? Unbedingt berücksichtigen! (Guter Punkt. Wichtig!)
+//	Hier würde sich auch std::set anbieten
 
 void	Lehrer::unterrichteFach() {
 	std::cout << _name << " unterrichtet ";
