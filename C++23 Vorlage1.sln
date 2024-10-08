@@ -35,13 +35,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20240926_Tutorium", "202409
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241001_Tutorium", "20241001_Tutorium\20241001_Tutorium.vcxproj", "{A9A97599-9FC3-4F3B-B33A-0C514F4ABBFC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_google_Test_for_Tutorium", "..\..\..\..\OneDrive - karriere tutor GmbH\Desktop\C++\test_google_Test_for_Tutorium\test_google_Test_for_Tutorium.vcxproj", "{365AD935-D7D6-4848-BE2A-CA201F186A98}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_google_Test_for_Tutorium", "test_google_Test_for_Tutorium\test_google_Test_for_Tutorium.vcxproj", "{365AD935-D7D6-4848-BE2A-CA201F186A98}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024104_Tutorium", "..\..\..\..\OneDrive - karriere tutor GmbH\Desktop\C++\2024104_Tutorium\2024104_Tutorium.vcxproj", "{4789D06F-3DA7-42C1-8F6B-FD6EC8B24E3F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2024104_Tutorium", "2024104_Tutorium\2024104_Tutorium.vcxproj", "{4789D06F-3DA7-42C1-8F6B-FD6EC8B24E3F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241004_GTest_Tutorium", "..\..\..\..\OneDrive - karriere tutor GmbH\Desktop\C++\20241004_GTest_Tutorium\20241004_GTest_Tutorium.vcxproj", "{0B92A2E1-62C8-4663-927E-281BF45F1379}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241004_GTest_Tutorium", "20241004_GTest_Tutorium\20241004_GTest_Tutorium.vcxproj", "{0B92A2E1-62C8-4663-927E-281BF45F1379}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241008_Tutorium", "..\..\..\..\OneDrive - karriere tutor GmbH\Desktop\C++\20241008_Tutorium\20241008_Tutorium.vcxproj", "{281235D6-D259-4A35-8021-E8CC80464BF0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241008_Tutorium", "20241008_Tutorium\20241008_Tutorium.vcxproj", "{281235D6-D259-4A35-8021-E8CC80464BF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
