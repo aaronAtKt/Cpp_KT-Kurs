@@ -1,3 +1,4 @@
+// Schön gelöst :)
 #include "Schueler.hpp"
 
 Schueler::Schueler(std::string name, int id) : Person() {
