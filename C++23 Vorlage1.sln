@@ -43,7 +43,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241004_GTest_Tutorium", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241008_Tutorium", "20241008_Tutorium\20241008_Tutorium.vcxproj", "{281235D6-D259-4A35-8021-E8CC80464BF0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241010_Tutorium", "..\..\..\..\OneDrive - karriere tutor GmbH\Desktop\C++\20241010_Tutorium\20241010_Tutorium.vcxproj", "{DB1BBC87-B494-4A8F-9C0A-63A44F1CDAC7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241010_Tutorium", "20241010_Tutorium\20241010_Tutorium.vcxproj", "{DB1BBC87-B494-4A8F-9C0A-63A44F1CDAC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
