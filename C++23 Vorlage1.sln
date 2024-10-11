@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241008_Tutorium", "202410
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241010_Tutorium", "20241010_Tutorium\20241010_Tutorium.vcxproj", "{DB1BBC87-B494-4A8F-9C0A-63A44F1CDAC7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20241011_Sprechstunde", "20241011_Sprechstunde\20241011_Sprechstunde.vcxproj", "{F3B20C99-E6E3-486A-865A-BB3FD586F2D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -217,6 +219,14 @@ Global
 		{DB1BBC87-B494-4A8F-9C0A-63A44F1CDAC7}.Release|x64.Build.0 = Release|x64
 		{DB1BBC87-B494-4A8F-9C0A-63A44F1CDAC7}.Release|x86.ActiveCfg = Release|Win32
 		{DB1BBC87-B494-4A8F-9C0A-63A44F1CDAC7}.Release|x86.Build.0 = Release|Win32
+		{F3B20C99-E6E3-486A-865A-BB3FD586F2D6}.Debug|x64.ActiveCfg = Debug|x64
+		{F3B20C99-E6E3-486A-865A-BB3FD586F2D6}.Debug|x64.Build.0 = Debug|x64
+		{F3B20C99-E6E3-486A-865A-BB3FD586F2D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3B20C99-E6E3-486A-865A-BB3FD586F2D6}.Debug|x86.Build.0 = Debug|Win32
+		{F3B20C99-E6E3-486A-865A-BB3FD586F2D6}.Release|x64.ActiveCfg = Release|x64
+		{F3B20C99-E6E3-486A-865A-BB3FD586F2D6}.Release|x64.Build.0 = Release|x64
+		{F3B20C99-E6E3-486A-865A-BB3FD586F2D6}.Release|x86.ActiveCfg = Release|Win32
+		{F3B20C99-E6E3-486A-865A-BB3FD586F2D6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
